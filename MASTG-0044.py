@@ -7,8 +7,10 @@ from termcolor import colored
 file_to_check = input("Enter the file to check: ")
 
 #Check if the file actually exist
-file_Checker=subprocess.run(loca)
-if f == 
+sys_files=["/bin","/dev","/initrd.img.old","/lib32","/lost+found","/mnt","/proc","/run","/srv","/tmp","/var","/vmlinuz.old", "/boot",  "/etc",  "/initrd.img", "/lib", "/lib64",  "/media", "/opt", "/root", "/sbin", "/sys" "/usr", "/vmlinuz"]
+print(sys_files)
+#file_Checker=subprocess.run(loca)
+#if f == 
 
 
 '''
