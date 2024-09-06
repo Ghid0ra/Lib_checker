@@ -25,7 +25,7 @@ for dirpath, dirnames, filenames in f:
 				print(filenames)
 				print(line)
 
-
+asadf
 '''
 print("\n")
 print(colored("RESULTS FOR STRINGS COMMAND(CANARY CHECK ONLY)",'red','on_white',attrs=['blink','bold']))
