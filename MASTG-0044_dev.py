@@ -13,7 +13,7 @@ print('\n')
 print(colored("RESULTS FOR RABIN2 COMMAND", 'red', 'on_white', attrs=['blink', 'bold']))
 for dirpath, dirnames, filenames in f:
 	print("\n")
-	#print(colored(dirpath, 'blue', attrs=['bold']))
+	print(colored(dirpath, 'blue', attrs=['bold']))
 	for fn in filenames:
 		full_path= os.path.join(dirpath, fn)
 		#print(colored(fn, 'yellow'))
@@ -22,8 +22,8 @@ for dirpath, dirnames, filenames in f:
 		false_values = []
 		for line in rbn.stdout.splitlines():
 			if 'false' in line:
-				print(filenames)
-				print(line)
+				false_values.append(line)
+				print(false_values)
 
 
 '''
